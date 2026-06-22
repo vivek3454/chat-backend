@@ -4,12 +4,11 @@ spring:
 
   data:
     mongodb:
-#      uri: mongodb+srv://vivekparde2411:HP0BfZbyK42nKQRZ@cluster0.rwqnq5h.mongodb.net/chat-application
-      uri: ${MONGODB_URI}
+      uri: mongodb+srv://vivekparde2411:HP0BfZbyK42nKQRZ@cluster0.rwqnq5h.mongodb.net/chat-application
 
 server:
   port: ${PORT:8080}
 
 jwt:
-  secret: ${JWT_SECRET}
+  secret: myVeryLongSecretKeyForChatApp123456
   expiration: 1296000000 # 15 days in milliseconds

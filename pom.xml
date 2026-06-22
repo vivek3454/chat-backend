@@ -11,8 +11,8 @@
 	<groupId>com.chatapp</groupId>
 	<artifactId>chat-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>chat-backend</name>
+	<description>Spring Boot Chat Backend</description>
 	<url/>
 	<licenses>
 		<license/>
